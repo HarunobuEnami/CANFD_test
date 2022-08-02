@@ -1,0 +1,340 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Jul  6 14:40:09 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = xfce
+# default
+.SHELLFLAGS := -c
+# environment
+ZIPINFO = -O CP932
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 3)
+OMACSEND = omacsend.c lib.c 
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /home/harunobu/.Xauthority
+# environment
+GDMSESSION = xfce
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/harunobu/Nextcloud/can周り/omac_fd2
+# makefile
+SHELL = /bin/sh
+# environment
+GDM_LANG = ja_JP
+# environment
+VTE_VERSION = 6003
+# environment
+VSCODE_NLS_CONFIG = {"locale":"ja","availableLanguages":{},"_languagePackSupport":true}
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg
+# environment
+QSYS_ROOTDIR = /home/harunobu/intelFPGA_lite/20.1/quartus/sopc_builder/bin
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+UNZIP = -O CP932
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+MANDATORY_PATH = /usr/share/gconf/xfce.mandatory.path
+# environment
+XDG_DATA_DIRS = /usr/share/xfce4:/usr/share/xfce:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+CLUTTER_IM_MODULE = ibus
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-5468c4fd-d95a-4980-aa50-753d4ec0417e.sock
+# environment
+VSCODE_CWD = /home/harunobu/Nextcloud/can周り/omac_fd2
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/harunobu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/harunobu/Programs/bin:/tools/Xilinx/Vivado/2020.2/bin
+# environment
+SESSION_MANAGER = local/main:@/tmp/.ICE-unix/2894,unix/main:/tmp/.ICE-unix/2894
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 4)
+OMACSEND2 = omacsend2.c lib.c
+# environment
+XDG_MENU_PREFIX = xfce-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 6)
+OMAC_FD = omac_fd.c lib.c
+# environment
+XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/harunobu
+# environment
+XDG_SESSION_DESKTOP = xfce
+# environment
+SSH_AUTH_SOCK = /tmp/ssh-xWNCbm0GmPEO/agent.2894
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0.0
+# environment
+GTK_IM_MODULE = ibus
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/harunobu/Nextcloud/can周り/omac_fd2
+# default
+.LOADED := 
+# environment
+XDG_SEAT = seat0
+# environment
+SSH_AGENT_PID = 3083
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = XFCE
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/harunobu
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/harunobu/.config/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+LOGNAME = harunobu
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile (from 'Makefile', line 8)
+CFLAG = -Iinclude -DAF_CAN=PF_CAN -DPF_CAN=29 -DSO_RXQ_OVFFSET_BITS=64 -D_GNU_L=40 -DSCM_TIMESTAMPING_OPT_STATS=54 -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -Wno-parentheses -O2 -Wall
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+MAKE_VERSION := 4.2.1
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XDG_VTNR = 7
+# environment
+MAKELEVEL := 0
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SHLVL = 1
+# makefile (from 'Makefile', line 7)
+CC = gcc
+# environment
+XDG_SESSION_ID = c2
+# environment
+USER = harunobu
+# makefile
+.DEFAULT_GOAL := candump
+# makefile (from 'Makefile', line 2)
+CANSEND = cansend.c lib.c
+# environment
+XDG_CURRENT_DESKTOP = XFCE
+# environment
+LIBVIRT_DEFAULT_URI = qemu:///system
+# makefile (from 'Makefile', line 1)
+CANDUMP = candump.c lib.c
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = ja_JP
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-ae76317e-1.68.1-main.sock
+# environment
+PANEL_GDK_CORE_DEVICE_EVENTS = 0
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+NO_AT_BRIDGE = 1
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+DEFAULTS_PATH = /usr/share/gconf/xfce.default.path
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 5)
+OMACRECIEVE = omacrecieve.c lib.c
+# environment
+QT4_IM_MODULE = ibus
+# environment
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/83723c35_793f_43f4_9cc7_cb306c6d2788
+# automatic
+^F = $(notdir $^)
+# environment
+GNOME_TERMINAL_SERVICE = :1.215
+# default
+SUFFIXES := 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 5217
+# variable set hash-table stats:
+# Load=114/1024=11%, Rehash=0, Collisions=11/139=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66305, inode 10224768): 28 files, no impossibilities.
+
+# 28 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+omacsend:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 19):
+	$(CC) $(OMACSEND)  -o $@  $? $(CFLAG)
+
+candump:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 12):
+	$(CC) $(CANDUMP)  -o $@  $? $(CFLAG)
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-25 21:06:30.548011939
+#  File has been updated.
+#  Successfully updated.
+
+cansend:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 16):
+	$(CC) $(CANSEND)  -o $@  $? $(CFLAG)
+
+omacsend2:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 22):
+	$(CC) $(OMACSEND2)  -o $@  $? $(CFLAG)
+
+omacrecieve:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 25):
+	$(CC) $(OMACRECIEVE)  -o $@  $? $(CFLAG)
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+omac_fd:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 28):
+	$(CC) $(OMAC_FD)  -o $@  $? $(CFLAG)
+
+# files hash-table stats:
+# Load=10/1024=1%, Rehash=0, Collisions=0/20=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 33 / storage = 309 B / avg = 9 B
+# current buf: size = 8162 B / used = 309 B / count = 33 / avg = 9 B
+
+# strcache performance: lookups = 49 / hit rate = 32%
+# hash-table stats:
+# Load=33/8192=0%, Rehash=0, Collisions=1/49=2%
+# Finished Make data base on Wed Jul  6 14:40:09 2022
+
+ 
